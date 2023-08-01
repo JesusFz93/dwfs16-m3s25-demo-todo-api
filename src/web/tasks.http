@@ -1,0 +1,31 @@
+@api = http://localhost:4000/api/tasks
+# @api = https://dwfs16-m3s21-ejercicio-auth.onrender.com/api/productos
+
+### sign in
+GET {{api}}
+
+### sign in
+GET {{api}}/64c813fb8146c11000fea2aa
+
+### sign in
+POST {{api}}
+Content-Type: application/json
+
+{
+    "name": "Barrer"
+}
+
+### sign in
+PUT {{api}}/64c93ba68e9dd7f5cf1c3c93
+Content-Type: application/json
+
+{
+    "status": false
+}
+
+### sign in
+DELETE  {{api}}/64c8166a1ce25e30a242de11
+
+### renovar token
+{{api}}/renew
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTMyZTRhN2VmMmQwNjdmNjZlMDNhMSIsImlhdCI6MTY4OTYyNTA1OSwiZXhwIjoxNjg5NjM5NDU5fQ.3zfXTBWRSmOgM1jB0GI09mYHoQO7y5wXKuFxQle1cD0

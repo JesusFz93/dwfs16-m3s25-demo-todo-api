@@ -1,5 +1,6 @@
 {
-    "id": "asdsadsda",
-    "name": "Requerir equipo de computo",
-    "status": true
+    "id": "aaa1",
+    "name": "Barrer",
+    "status": true,
+    "image": "https://riull.ull.es/xmlui/bitstream/handle/915/25878/barrer%20%28sweep%29.png?sequence=1&isAllowed=y"
 }
