@@ -12,7 +12,7 @@ POST {{api}}
 Content-Type: application/json
 
 {
-    "name": "Barrer"
+    "name": "Trastexs"
 }
 
 ### sign in
@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ### sign in
-DELETE  {{api}}/64c8166a1ce25e30a242de11
+DELETE  {{api}}/64c9511742c8f5f57eb2cc02
 
 ### renovar token
 {{api}}/renew
